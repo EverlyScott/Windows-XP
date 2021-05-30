@@ -1,0 +1,13 @@
+{
+  "name": "Windows XP Tour",
+  "id": "tour",
+  "icon": "assets/img/logo.ico",
+  "fullscreen": false,
+  "window-controls": [
+    "close"
+  ],
+  "default-size": {
+    "width": 497,
+    "height": 361
+  }
+}

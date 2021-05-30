@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Windows XP</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="../vendor/xp.css/xp.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="startmenu">
+        asdf
+      </div>
+
+      <div id="desktop">
+        <div id="programs">
+          <template id="program-template">
+            <div class="program" id="program">
+              <div class="window" id="window">
+                <div class="title-bar">
+                  <div class="title-bar-text">
+                    <img id="titleBarIcon" class="title-bar-icon" src="" />
+                    <span id="titleBarText"></span>
+                  </div>
+                  <div class="title-bar-controls" id="titleBarControls"></div>
+                </div>
+                <div class="window-body" style="margin:0 0 0 3px;">
+                  <iframe id="iframe" style="border:none;"></iframe>
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
+      </div>
+
+      <div id="taskbar">
+        <div id="startcontainer">
+          <img src="../assets/img/start/normal.png" id="startbutton" />
+        </div>
+
+        <div id="notif">
+          <span id="time">00:00 AM</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js" type="module"></script>
+    <script src="http://vendor.scribblenerd.com/jquery-3.4.1-dist/js/jquery-3.4.1.min.js"></script>
+    <script src="js/api.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+/* Variables */
+:root {
+  /* Cursors */
+  --cursor-pointer: url('../../../assets/cursors/pointer.png'), default;
+  --cursor-loading_background: url('../../../assets/cursors/loading_background.png'), progress;
+  --cursor-loading_disk: url('../../../assets/cursors/loading_disk.png') 0 4, progress;
+  --cursor-loading: url('../../../assets/cursors/loading.png'), wait;
+  --cursor-move: url('../../../assets/cursors/move.png') 10 10, move;
+  --cursor-resize_diag_1: url('../../../assets/cursors/resize_diag_1.png') 7 7, nwse-resize;
+  --cursor-resize_diag_2: url('../../../assets/cursors/resize_diag_2.png') 7 7, nesw-resize;
+  --cursor-resize_horizontal: url('../../../assets/cursors/resize_horizontal.png') 9 4, ew-resize;
+  --cursor-resize_vertical: url('../../../assets/cursors/resize_vertical.png') 4 9, ns-resize;
+  --cursor-select: url('../../../assets/cursors/select.png') 6 0, pointer;
+  --cursor-unavailable: url('../../../assets/cursors/unavailable.png') 9 9, not-allowed;
+}
+
+:root {
+  font-family: Tahoma, TahomaWeb!important;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  user-select: none;
+  cursor: var(--cursor-pointer);
+  overflow: hidden;
+}
+
+body {
+  font-family: Tahoma, TahomaWeb!important;
+  width: 497px;
+  height: 361px;
+  margin: 0 0 0 0;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+label {
+  font-size: 12px!important;
+  max-width: 300px!important;
+  font-family: Tahoma, TahomaWeb!important;
+}
+
+button {
+  font-family: Tahoma, TahomaWeb!important;
+}
+
+#top {
+  width: 497px;
+  height: 314px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
+#top #left {
+  width: 164px;
+  height: 314px;
+}
+
+#top #right {
+  width: 280px;
+  height: 298px;
+  padding: 16px 43px 0 10px;
+  background-color: #ffffff;
+}
+
+#bottom {
+  width: 497px;
+  height: 47px;
+  background: #ece9d8;
+  background: linear-gradient(180deg, #ACA899 1px, #ffffff 2px, #ece9d8 3px, #ece9d8 47px);
+  text-align: right;
+}
+
+#cancel {
+  margin: 14px 10px 10px 10px;
+}
+
+#next {
+  margin-left: 1px;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Microsoft Internet Explorer",
+  "id": "internet_explorer",
+  "icon": "assets/img/logo.ico",
+  "fullscreen": false,
+  "window-controls": [
+    "minimize",
+    "maximize",
+    "close"
+  ],
+  "default-size": {
+    "width": 640,
+    "height": 480
+  }
+}

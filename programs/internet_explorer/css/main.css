@@ -1,0 +1,120 @@
+/* Variables */
+:root {
+  /* Cursors */
+  --cursor-pointer: url('../../../assets/cursors/pointer.png'), default;
+  --cursor-loading_background: url('../../../assets/cursors/loading_background.png'), progress;
+  --cursor-loading_disk: url('../../../assets/cursors/loading_disk.png') 0 4, progress;
+  --cursor-loading: url('../../../assets/cursors/loading.png'), wait;
+  --cursor-move: url('../../../assets/cursors/move.png') 10 10, move;
+  --cursor-resize_diag_1: url('../../../assets/cursors/resize_diag_1.png') 7 7, nwse-resize;
+  --cursor-resize_diag_2: url('../../../assets/cursors/resize_diag_2.png') 7 7, nesw-resize;
+  --cursor-resize_horizontal: url('../../../assets/cursors/resize_horizontal.png') 9 4, ew-resize;
+  --cursor-resize_vertical: url('../../../assets/cursors/resize_vertical.png') 4 9, ns-resize;
+  --cursor-select: url('../../../assets/cursors/select.png') 6 0, pointer;
+  --cursor-unavailable: url('../../../assets/cursors/unavailable.png') 9 9, not-allowed;
+
+  --font: Tahoma, TahomaWeb!important
+}
+
+:root {
+  font-family: var(--font);
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  user-select: none;
+  cursor: var(--cursor-pointer);
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font);
+  margin: 0;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.window-body {
+  margin: 0!important;
+}
+
+.top {
+  margin: 0;
+  width: 100%;
+  height: 88px;
+  background: #F0EEE3
+}
+
+.bodyleftmargin {
+  margin: 0;
+  position: absolute;
+  left: 0px;
+  display: inline-block;
+  width: 2px;
+  height: calc(100vh - 116px);
+  background: linear-gradient(to right, #ACA899 1px, #716F64 2px);
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: calc(100vw - 2px);
+  height: calc(100vh - 116px);
+}
+
+.body iframe {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.bodyrightmargin {
+  margin: 0;
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+  width: 2px;
+  height: calc(100vh - 116px);
+  background: linear-gradient(to left, #ACA899 1px, #716F64 2px);
+}
+
+.bottom {
+  width: 100%;
+  height: 28px;
+  background: #F0EEE3;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.bottom p {
+  margin: 0;
+}
+
+.top .menu {
+  width: 100%;
+  height: 22px;
+  margin-left: 2px;
+  border-bottom: 1px solid #D8D2BD;
+}
+
+.top .menu .menuitem {
+  display: inline-block;
+  padding: 4px 9px 4.25px 8px;
+}
+
+.top .menu .menuitem:hover {
+  background: #316ac5;
+  color: #ffffff;
+}
+
+.top .menu .logo {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}

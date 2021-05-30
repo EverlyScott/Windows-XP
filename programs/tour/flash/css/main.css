@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  margin: 0 0 0 0;
+  overflow: hidden;
+}
+
+video {
+  z-index: 0;
+  height: 100vh;
+}
+
+img {
+  z-index: 1;
+  width: calc(100vh * 1.333333333333333);
+  height: 100vh;
+  position: absolute;
+}
